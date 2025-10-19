@@ -1,6 +1,6 @@
-/metrics
-./results
-/logs
-/temp
-/plots
-/.vscode
+/metrics/
+/results/
+/logs/
+/temp/
+/plots/
+/.vscode/
