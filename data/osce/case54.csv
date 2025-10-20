@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),Vertigo Duration (minutes),Nystagmus Intensity (0–10),Dix-Hallpike Induced Symptoms (0=no 1=yes),Presenting Complaint,Clinical_Diagnosis,Label
+59,36.5,134,85,85,13,98,3,7,1,"Sudden-onset spinning sensation with nausea, vomiting, and dizziness.","Benign paroxysmal positional vertigo",1
+59,36.6,142,90,92,14,96,10,4,0,"Sudden-onset spinning sensation with nausea, vomiting, and dizziness.","Benign paroxysmal positional vertigo",0

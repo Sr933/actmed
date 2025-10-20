@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Lesion Thickness (mm),Keratinocyte Atypia (% of epidermis),Solar Elastosis Score (0–10),Mitotic Figures (per HPF),Lesion Diameter (mm),Presenting Complaint,Clinical_Diagnosis,Label
+65,36.8,130,85,72,14,0.6,35,8,2,7,"Rough, scaly, sandpaper-like plaque on the left dorsal hand.","Actinic keratosis",1
+65,36.9,132,84,78,15,1.4,85,9,8,12,"Rough, scaly, sandpaper-like plaque on the left dorsal hand.","Actinic keratosis",0

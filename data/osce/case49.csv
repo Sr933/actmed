@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),Glucose (mg/dL),C-Peptide (ng/mL),BUN (mg/dL),Creatinine (mg/dL),Na (mEq/L),K (mEq/L),Cl (mEq/L),HCO3 (mEq/L),Ca2+ (mg/dL),Presenting Complaint,Clinical_Diagnosis,Label
+44,36.7,104,54,120,15,98,41,1.5,22,1.1,139,3.9,100,24,10.2,"Confusion, abdominal pain, diarrhea, fatigue, and vomiting.","Dumping syndrome",1
+44,36.8,106,56,115,15,98,38,6.0,18,1.0,140,4.1,101,23,10.1,"Confusion, abdominal pain, diarrhea, fatigue, and vomiting.","Dumping syndrome",0

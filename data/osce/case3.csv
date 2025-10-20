@@ -1,0 +1,3 @@
+Age_years,Temperature_C,Blood_Pressure_mmHg,Heart_Rate_bpm,Respiratory_Rate_min,Weight_Loss_kg,Pack_Years,Supraclavicular_Node_cm,Splenomegaly_Size_cm,WBC_10^9/L,Hemoglobin_g/dL,LDH_U/L,Presenting_Complaint,Clinical_Diagnosis,Label
+55,36.8,135/80,82,14,5.4,30,3.5,4.0,15.2,11.8,420,"Fatigue, abdominal pain, night sweats, neck swelling","Diffuse large B-cell lymphoma",1
+55,36.7,130/78,78,14,0,30,0.0,0.0,6.5,14.5,180,"Fatigue, abdominal pain, night sweats, neck swelling","Diffuse large B-cell lymphoma",0

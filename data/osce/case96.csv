@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Auditory_Hallucinations (0=no,1=yes),Suicidal_Ideation (0=no,1=yes),Recent_Bereavement (0=no,1=yes),Substance_Use (0=no,1=yes),Concentration_Difficulty (0=no,1=yes),Presenting Complaint,Clinical_Diagnosis,Label
+20,36.9,110,65,90,17,1,1,1,0,1,"Hearing voices discussing her negatively and encouraging self-harm.","Brief psychotic disorder",1
+20,36.9,110,65,90,17,0,0,1,0,1,"Hearing voices discussing her negatively and encouraging self-harm.","Complicated grief reaction",0

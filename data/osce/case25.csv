@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Bilirubin (mg/dL),AST (IU/L),ALT (IU/L),TP Activity (%),INR,Presenting Complaint,Clinical_Diagnosis,Label
+20,37.0,110/60,94,13,25,600,650,40,1.5,"20-year-old male with agitation, jaundice, and abnormal liver function tests.","Fulminant Hepatic Failure",1
+20,36.9,112/62,88,13,2.0,40,50,95,1.0,"20-year-old male with agitation, jaundice, and abnormal liver function tests.","Fulminant Hepatic Failure",0

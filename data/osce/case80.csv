@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Skin_Biopsy_Melanocytes (/mm²),Keratinocyte_Integrity (score),Fungal_Elements (per HPF),Presenting Complaint,Clinical_Diagnosis,Label
+19,36.8,118,76,72,14,0,10,0,"Hypopigmented skin lesions on face, hands, and arms, gradually enlarging.","Vitiligo",1
+19,36.8,118,76,72,14,150,10,5,"Hypopigmented skin lesions on face, hands, and arms, gradually enlarging.","Vitiligo",0

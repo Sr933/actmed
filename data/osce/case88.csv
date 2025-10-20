@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Septal_Thickness (mm),Left_Ventricular_Mass_Index (g/m²),S4_Present (0/1),JVP_Awave_Amplitude (cm),Presenting Complaint,Clinical_Diagnosis,Label
+23,36.8,130,85,68,14,20,160,1,5,"Sudden loss of consciousness during pitching, recovered with CPR, prominent S4 and LV hypertrophy.","Hypertrophic Cardiomyopathy",1
+23,36.8,130,85,68,14,10,90,0,2,"Sudden loss of consciousness during pitching, recovered with CPR, prominent S4 and LV hypertrophy.","Hypertrophic Cardiomyopathy",0

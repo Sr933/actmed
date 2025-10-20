@@ -1,0 +1,3 @@
+Age (years),Pulse (bpm),Respiratory Rate (/min),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Oxygen Saturation (%),Rib_Fracture_Count (number),Mediastinum_Width (mm),NG_Tube_Deviation (mm),Hemoglobin (g/dL),Presenting Complaint,Clinical_Diagnosis,Label
+26,130,29,90,58,70,1,120,15,12.1,"Respiratory distress with lethargy and incoherence post-motor vehicle collision with abnormal chest X-ray findings.","Thoracic aortic rupture",1
+26,80,19,100,58,70,0,60,0,12.1,"Respiratory distress with lethargy and incoherence post-motor vehicle collision with abnormal chest X-ray findings.","Thoracic aortic rupture",0

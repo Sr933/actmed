@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Weight Change (kg over 6 months),WBC (/μL),Hemoglobin (g/dL),Platelet Count (/μL),Direct Antiglobulin Test (IU/mL),Smudge Cell Percentage (%),Lymph Node Size (cm),Liver Size (cm below costal margin),Spleen Size (cm below costal margin),Presenting Complaint,Clinical_Diagnosis,Label
+72,36.8,130,85,80,14,5,16000,11.0,250000,35,45,3.5,2.0,3.0,"Fatigue and 5 kg unintentional weight loss over 6 months despite good appetite.","Chronic lymphocytic leukemia",1
+72,36.9,132,84,82,15,5,14000,11.5,220000,5,5,4.5,3.0,4.5,"Fatigue and 5 kg unintentional weight loss over 6 months despite good appetite.","Chronic lymphocytic leukemia",0

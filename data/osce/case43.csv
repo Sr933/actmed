@@ -1,0 +1,3 @@
+Age (months),Temperature (°C),Heart Rate (bpm),Respiratory Rate (/min),Episodes of Wheezing per Day,Episodes of Vomiting per Day,Neck Flexion Exacerbation Angle (°),Neck Extension Relief Angle (°),Feeding-Associated Episode Duration (minutes),Presenting Complaint,Clinical_Diagnosis,Label
+10,36.8,110,30,6,2,30,45,10,"Recurrent stridor and wheezing exacerbated by crying","Double aortic arch",1
+10,36.8,105,28,0,0,0,0,0,"Recurrent stridor and wheezing exacerbated by crying","Double aortic arch",0

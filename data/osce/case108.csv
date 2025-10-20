@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Weight_Loss (kg over 2 months),Smoking (cigarettes/day),Alcohol_Intake (drinks/week),Presenting Complaint,Clinical_Diagnosis,Label
+38,37.0,120,89,77,16,4,10,3,"Epigastric discomfort and cramping pain with postprandial worsening.","Gastric Peptic Ulcer",1
+38,37.0,120,89,77,16,0,0,0,"Epigastric discomfort and cramping pain with postprandial worsening.","Gastric Peptic Ulcer",0

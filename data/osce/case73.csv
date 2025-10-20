@@ -1,0 +1,3 @@
+Age (years),Heart Rate (bpm),Respiratory Rate (/min),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),FEV1 (% predicted),FVC (% predicted),FEV1/FVC Ratio,DLCO (% predicted),Chest CT Fibrosis Severity (0-5),Eggshell Calcification Nodes (count),Silica Exposure (years),Smoking Pack-Years,Presenting Complaint,Clinical_Diagnosis,Label
+60,72,30,130,80,65,70,0.75,45,4,6,20,0,"Progressive shortness of breath exacerbated by physical activity.","Silicosis",1
+60,78,28,132,82,55,75,0.60,55,0,0,0,35,"Progressive shortness of breath exacerbated by physical activity.","Silicosis",0

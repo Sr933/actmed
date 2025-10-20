@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Pleural Effusion (1=yes),Ascites (1=yes),Pelvic Mass Size (cm),CA-125 (U/mL),Presenting Complaint,Clinical_Diagnosis,Label
+40,36.8,125/80,85,20,1,1,12,20,"40-year-old woman with progressive shortness of breath and abdominal distension over one month.","Meigs syndrome",1
+40,36.9,124/82,86,20,1,1,11,500,"40-year-old woman with progressive shortness of breath and abdominal distension over one month.","Meigs syndrome",0

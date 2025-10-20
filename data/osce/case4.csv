@@ -1,0 +1,3 @@
+Age_years,Temperature_C,Blood_Pressure_mmHg,Heart_Rate_bpm,Respiratory_Rate_min,Urea_mmol/L,Creatinine_umol/L,Leukocytes_Urine_cells_per_uL,Eosinophils_Urine_percent,Presenting_Complaint,Clinical_Diagnosis,Label
+62,37.9,145/90,75,16,15.0,180,60,3,"Fatigue, flank pain, fever after recent antibiotics","Acute interstitial nephritis",1
+62,36.8,135/85,72,14,5.5,75,0,0,"Fatigue, flank pain, fever after recent antibiotics","Acute interstitial nephritis",0

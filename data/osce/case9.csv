@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Hemoglobin (g/dL),Prolapsed Rectal Mass (1=present),Presenting Complaint,Clinical_Diagnosis,Label
+45,36.7,115/85,72,15,13.5,1,"Rectal bleeding daily with bowel movements, no pain with defecation","Hemorrhoids",1
+25,36.8,118/80,82,15,13.5,0,"Rectal bleeding daily with bowel movements, no pain with defecation","Hemorrhoids",0

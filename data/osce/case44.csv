@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Duration of Sadness (months),Duration of Hallucinations (months),Sleep (hours/night),Weight Change (kg over 4 months),TSH (μIU/mL),Free T4 (ng/dL),Presenting Complaint,Clinical_Diagnosis,Label
+23,36.8,115,75,72,14,4,7,4,-5,2.0,1.2,"Persistent sadness with decreased sleep, decreased appetite, impaired concentration, auditory hallucinations, and feelings of worthlessness.","Schizoaffective disorder",1
+23,36.8,118,78,76,14,4,4,5,-3,6.5,0.8,"Persistent sadness with decreased sleep, decreased appetite, impaired concentration, auditory hallucinations, and feelings of worthlessness.","Schizoaffective disorder",0

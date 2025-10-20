@@ -1,0 +1,3 @@
+Age (hours),Gestational Age (weeks),Temperature (°C),Heart Rate (bpm),Respiratory Rate (/min),pH,PaCO2 (mmHg),PaO2 (mmHg),HCO3- (mEq/L),Ground Glass Pattern (1=yes),Presenting Complaint,Clinical_Diagnosis,Label
+2,33,37.0,148,70,7.30,50,60,24,1,"Preterm newborn presenting with respiratory distress shortly after birth.","Respiratory Distress Syndrome",1
+2,33,37.2,152,68,7.38,40,80,24,0,"Preterm newborn presenting with respiratory distress shortly after birth.","Respiratory Distress Syndrome",0

@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Lumbar Spine Tenderness (0-10),Straight Leg Raise Angle (degrees before pain),Motor Weakness Score (0-5),Disc Herniation Index (MRI, 0-10),Presenting Complaint,Clinical_Diagnosis,Label
+26,37.2,120/70,95,6,35,5,8,"26-year-old patient presenting with acute lower back pain after physical exertion.","Lumbar disc herniation",1
+26,37.1,118/72,90,4,70,5,0,"26-year-old patient presenting with acute lower back pain after physical exertion.","Lumbar disc herniation",0

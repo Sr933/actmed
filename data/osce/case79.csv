@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),WBC (/mm3),Bilirubin_Total (mg/dL),ALT (U/L),AST (U/L),Ultrasound_Finding,Presenting Complaint,Clinical_Diagnosis,Label
+67,38.9,117,65,110,19,95,18000,2.0,80,95,"Pericholecystic fluid, gallbladder wall thickening, no stones","Altered mental status with confusion and right upper quadrant abdominal discomfort in a hospice patient.","Acalculous cholecystitis",1
+67,38.5,118,66,105,18,96,15000,0.8,35,40,"Thickened bowel loop, mild free fluid, no gallbladder findings","Altered mental status with confusion and right upper quadrant abdominal discomfort in a hospice patient.","Acalculous cholecystitis",0

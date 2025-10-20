@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Fasting Glucose (mmol/L),Duration of Symptoms (months),Pain with Intercourse (0–10),Vulvar Skin Thickness (mm),Lesion Color Index (0=normal, 1=pale, 2=white),Labia Minora Atrophy (mm retraction),Clitoral Retraction (mm),Perianal Skin Elasticity (0–5),Presenting Complaint,Clinical_Diagnosis,Label
+60,36.8,130,85,72,14,6.5,12,8,0.5,2,4,2,1,"Severe vulvar itching and pain during sexual intercourse.","Lichen sclerosus",1
+60,36.9,128,82,74,14,6.7,12,7,0.8,1,2,0,2,"Severe vulvar itching and pain during sexual intercourse.","Lichen sclerosus",0

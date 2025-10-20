@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),WBC (/μL),Hemoglobin (g/dL),Platelets (/μL),Uric Acid (mg/dL),Alcohol Intake (drinks/day),Rash Duration (months),Presenting Complaint,Clinical_Diagnosis,Label
+69,36.8,135,85,78,14,7000,14,300000,6,10,0,"Pain in hips, and knees worsening with activity and improving with rest","Osteoarthritis",1
+69,37.8,130,80,75,14,6500,14,280000,5,10,1,"Pain in hips, and knees worsening with activity and improving with rest","Osteoarthritis",0

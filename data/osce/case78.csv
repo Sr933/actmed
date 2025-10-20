@@ -1,0 +1,3 @@
+Age (years),BMI (kg/m2),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),FEV1/FVC (%),FEV1 (% predicted),Total Lung Capacity (% predicted),Residual Volume (% predicted),DLCO (% predicted),Weight Loss (kg),Presenting Complaint,Clinical_Diagnosis,Label
+56,31,130,78,90,17,95,60,50,110,115,60,6,"Worsening shortness of breath and weight loss for 1 year.","Chronic obstructive pulmonary disease",1
+56,29,132,80,88,18,97,78,85,100,100,85,4,"Worsening shortness of breath and weight loss for 1 year.","Chronic obstructive pulmonary disease",0

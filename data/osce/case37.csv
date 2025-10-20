@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Hematocrit (%),Leukocyte Count (/mm3),Platelet Count (/mm3),Prothrombin Time (sec),Partial Thromboplastin Time (sec),Bleeding Time (min),Urea Nitrogen (mg/dL),Creatinine (mg/dL),Total Bilirubin (mg/dL),Direct Bilirubin (mg/dL),Lactate Dehydrogenase (U/L),Presenting Complaint,Clinical_Diagnosis,Label
+17,37.0,108,74,90,16,35,8500,160000,15,60,6,20,1.0,1.0,0.5,90,"Persistent gum bleeding after wisdom tooth extraction.","Hemophilia",1
+17,37.0,110,75,85,16,40,7500,180000,13,35,3,18,0.9,0.8,0.3,85,"Persistent gum bleeding after wisdom tooth extraction.","Hemophilia",0

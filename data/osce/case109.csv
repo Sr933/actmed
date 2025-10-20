@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Hemoglobin (g/dL),Leukocyte_Count (/mm³),Platelet_Count (/mm³),Absolute_Lymphocyte_Count (/mm³),Presenting Complaint,Clinical_Diagnosis,Label
+75,36.8,125,85,15,58000,250000,50000,"Annual blood pressure check-up with occasional knee pain.","Chronic lymphocytic leukemia",1
+75,36.8,125,85,15,6500,250000,2000,"Annual blood pressure check-up with occasional knee pain.","Chronic lymphocytic leukemia",0

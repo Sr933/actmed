@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Hemoglobin (g/dL),WBC (/mm³),Platelets (/mm³),Blast Cells (%),Auer Rods (per 100 cells),Splenomegaly Size (cm below costal margin),Presenting Complaint,Clinical_Diagnosis,Label
+67,36.8,135,85,82,14,8.3,81000,35600,35,18,6,"Generalized fatigue, pallor, and pinpoint nonblanching spots (petechiae) on extremities.","Acute Myelogenous Leukemia (AML)",1
+67,36.9,134,82,80,14,10.5,95000,500000,5,0,8,"Generalized fatigue, pallor, and pinpoint nonblanching spots (petechiae) on extremities.","Acute Myelogenous Leukemia (AML)",0

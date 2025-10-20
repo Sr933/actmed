@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),PTSD_Avoidance_Score (0-40),PTSD_Intrusion_Score (0-40),PTSD_Hyperarousal_Score (0-40),Psychological_Trigger_Intensity (0-10),Presenting Complaint,Clinical_Diagnosis,Label
+28,36.8,130,85,88,18,32,28,30,9,"Disturbing flashbacks and intense fear of loud noises after returning from active duty.","Posttraumatic stress disorder",1
+28,36.8,130,85,88,18,5,4,6,4,"Disturbing flashbacks and intense fear of loud noises after returning from active duty.","Posttraumatic stress disorder",0

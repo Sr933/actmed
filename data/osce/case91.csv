@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Hemoglobin (g/dL),MCV (µm³),Reticulocyte_Count (%),Sodium (mEq/L),Potassium (mEq/L),Calcium (mg/dL),Presenting Complaint,Clinical_Diagnosis,Label
+26,36.5,90,65,120,7.5,89,13.3,139,3.9,8.5,"Fatigue, episodes of lower abdominal pain, and concern for cancer.","Factitious Disorder",1
+26,36.5,1000,65,110,11.5,89,1.0,139,3.9,8,"Fatigue, episodes of lower abdominal pain, and concern for cancer.","Factitious Disorder",0

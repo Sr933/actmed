@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate Min (bpm),Heart Rate Max (bpm),Respiratory Rate (/min),P_Waves (per 10 sec),R_R_Interval_Variability (ms),Alcohol_Level (mg/dL),Presenting Complaint,Clinical_Diagnosis,Label
+28,36.8,130,80,88,110,18,0,120,0,"Dizziness, palpitations, fatigue, and exertional shortness of breath after heavy alcohol intake.","Paroxysmal atrial fibrillation",1
+28,36.8,130,80,72,78,18,10,5,0,"Dizziness, palpitations, fatigue, and exertional shortness of breath after heavy alcohol intake.","Paroxysmal atrial fibrillation",0

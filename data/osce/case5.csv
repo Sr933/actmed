@@ -1,0 +1,3 @@
+Age_years,Temperature_C,Blood_Pressure_mmHg,Heart_Rate_bpm,Respiratory_Rate_min,Glucose_mmol_L,Creatinine_umol_L,Sodium_mmol_L,Potassium_mmol_L,ECG_Normal_Flag,Event_Duration_seconds,Postictal_Confusion_Flag,Presenting_Complaint,Clinical_Diagnosis,Label
+23,36.8,130/85,72,14,5.1,80,140,4.2,1,30,0,"Felt very dizzy and lightheaded after micturition, rapid recovery","Situational syncope",1
+53,36.7,125/80,70,14,5.0,78,141,4.1,1,2,0,"Felt very dizzy and lightheaded after micturition, rapid recovery","Situational syncope",0

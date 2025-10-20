@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),WBC (/μL),Synovial WBC (/μL),Gram Stain (1=positive for diplococci),STI Gonorrhea (1=positive),Presenting Complaint,Clinical_Diagnosis,Label
+17,37.7,120/80,80,14,15000,50000,1,1,"17-year-old male with left wrist pain, fever, and skin lesions.","Disseminated Gonococcal Infection",1
+17,37.4,118/78,78,14,12000,8000,0,0,"17-year-old male with left wrist pain, fever, and skin lesions.","Disseminated Gonococcal Infection",0

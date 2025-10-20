@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),WBC (/μL),Hemoglobin (g/dL),Platelets (/μL),ALT (U/L),AST (U/L),Bilirubin (mg/dL),ALP (U/L),Gallbladder_Wall_Thickness (mm),Pericholecystic_Fluid (0-1),Presenting Complaint,Clinical_Diagnosis,Label
+67,38.9,117,65,110,19,95,18000,13.5,250000,75,68,2.5,190,6,1,"Confusion, fever, and right upper quadrant abdominal pain with palpable mass.","Acalculous cholecystitis",1
+67,38.9,117,65,110,19,95,9000,13.5,250000,30,28,0.6,100,3,0,"Confusion, mild fever, and right upper quadrant discomfort due to chronic illness flare.","Acalculous cholecystitis",0

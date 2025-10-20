@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),WBC (/μL),Hemoglobin (g/dL),Platelets (/μL),Sodium (mEq/L),Potassium (mEq/L),Chloride (mEq/L),Bicarbonate (mEq/L),Symptom Onset (hours after meal),Abdominal Tenderness Score (0–10),Stool Frequency (episodes/24h),Presenting Complaint,Clinical_Diagnosis,Label
+20,37.0,90,78,106,15,9000,14,300000,138,3.9,100,24,2,5,8,"Abdominal cramps, nausea, vomiting, and diarrhea after eating reheated food.","Bacillus cereus infection",1
+20,37.1,92,76,108,16,9400,13.8,295000,137,4.0,99,23,3,6,7,"Abdominal cramps, nausea, vomiting, and diarrhea after eating reheated food.","Bacillus cereus infection",0

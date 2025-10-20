@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Weight_Loss (kg),WBC (/μL),Hemoglobin (g/dL),Platelets (/μL),Na (mEq/L),K (mEq/L),Cl (mEq/L),Ca (mg/dL),VGCC_Antibody_Level (pmol/L),Presenting Complaint,Clinical_Diagnosis,Label
+53,37.0,130,85,72,18,4.6,7800,14.2,230000,140,4.3,104,9.2,150,"Chronic cough, difficulty climbing stairs that improves with activity, and weight loss.","Lambert-Eaton Syndrome",1
+53,37.0,130,85,72,18,0.5,7000,14.5,240000,139,4.1,103,9.3,10,"Chronic cough and muscle weakness without post-exercise improvement.","Lambert-Eaton Syndrome",0

@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Pain Duration (months),Grip Strength (kg, affected hand),C-Reactive Protein (mg/L),Rheumatoid Factor (IU/mL),Finkelstein Test Pain (VAS 0–10),Presenting Complaint,Clinical_Diagnosis,Label
+34,36.7,117,76,82,14,3,12,3,5,8,"Wrist pain with radiation to the elbow and difficulty moving the hand.","De Quervain tenosynovitis",1
+34,36.8,118,78,84,14,3,10,12,35,4,"Wrist pain with radiation to the elbow and difficulty moving the hand.","De Quervain tenosynovitis",0

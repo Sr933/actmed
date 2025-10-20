@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Grip Strength (kg),Sensory Nerve Action Potential (μV),Anti-PGL-1 Antibody Titer (IU/mL),Granuloma Density (cells/mm²),Eyebrow Hair Density (hairs/cm²),Presenting Complaint,Clinical_Diagnosis,Label
+50,36.8,130,85,72,14,18,2.5,120,85,5,"Pruritic rash on upper body and face with numbness and tingling on the palms.","Leprosy",1
+50,36.9,128,84,76,15,20,8.0,5,0,65,"Pruritic rash on upper body and face with numbness and tingling on the palms.","Leprosy",0

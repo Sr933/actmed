@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Hemoglobin (g/dL),Hematocrit (%),Leukocyte_Count (/mm³),Platelet_Count (/mm³),Na (mEq/L),K (mEq/L),Cl (mEq/L),HCO3 (mEq/L),BUN (mg/dL),Creatinine (mg/dL),Calcium (mg/dL),Weight_Change (kg last 6 months),Presenting Complaint,Clinical_Diagnosis,Label
+40,36.8,130,85,82,14,8.0,29,9500,197000,139,5.9,100,17,59,2.3,9.0,-5,"Generalized weakness and unintentional weight loss, with elevated BUN and creatinine.","Chronic Kidney Failure",1
+40,36.8,130,85,82,14,12.5,37,7000,220000,139,4.3,100,24,14,0.9,9.2,0,"Generalized weakness and unintentional weight loss, with normal renal function.","Chronic Kidney Failure",0

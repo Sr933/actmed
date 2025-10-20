@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Hemoglobin (g/dL),Interictal Spike Frequency (spikes/min),MRI Temporal Lobe Lesion Volume (cm³),Episode Duration (min),Post-Episode Confusion Duration (min),Presenting Complaint,Clinical_Diagnosis,Label
+7,36.8,95/60,82,18,13.2,3.2,0.8,3.5,10,"Recurrent facial grimacing and staring episodes, muddy taste before onset, confusion afterwards","Complex partial seizure",1
+7,36.9,98/62,80,18,13.2,0.4,0.0,1.5,2,"Recurrent facial grimacing and staring episodes, muddy taste before onset, confusion afterwards","Complex partial seizure",0

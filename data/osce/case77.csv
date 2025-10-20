@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),WBC (/μL),Hemoglobin (g/dL),Platelets (/μL),CRP (mg/L),ESR (mm/hr),Fecal Occult Blood (ng/mL),Range_of_Motion_% (Right Arm),Abdominal_Tenderness_Score (0-10),Presenting Complaint,Clinical_Diagnosis,Label
+21,37.0,115,75,82,18,7000,13.5,250000,2,5,0,60,5,"Right arm pain with limited range of motion, diarrhea, nausea, pain during intercourse, and diffuse abdominal tenderness without inflammation.","Somatization disorder",1
+21,37.4,118,78,88,19,11000,12.8,240000,25,40,10,40,7,"Right arm pain with limited range of motion, diarrhea, nausea, pain during intercourse, and diffuse abdominal tenderness without inflammation.","Somatization disorder",0

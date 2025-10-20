@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Jugular_Venous_Pulse_Height (mm),Apical_Impulse_Amplitude (mm),S4_Intensity (dB),LV_Wall_Thickness (mm),Ventricular_Cavity_Size (mL),,Presenting Complaint,Clinical_Diagnosis,Label
+23,36.7,125,80,72,16,10,6,25,22,50,"Sudden loss of consciousness during physical activity (baseball pitching).","Hypertrophic Cardiomyopathy",1
+23,36.7,120,78,75,16,3,2,0,9,110,"Sudden loss of consciousness during physical activity (baseball pitching).","Hypertrophic Cardiomyopathy",0

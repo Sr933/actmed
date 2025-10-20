@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Initial_Lower_Extremity_Strength (/5),Post_Activity_Strength (/5),Achilles_Reflex (0-4+),Pupil_Reactivity (seconds),CMAP_After_Repetitive_Stimulation (% increase),Calcium_Channel_Antibody (pmol/L),Presenting Complaint,Clinical_Diagnosis,Label
+53,36.8,135,85,82,18,3,5,1,2.5,300,450,"Cough, difficulty walking up stairs, proximal muscle weakness improving with activity.","Lambert-Eaton Syndrome",1
+53,36.8,135,85,82,18,3,3,2,1.0,0,10,"Cough, difficulty walking up stairs, proximal muscle weakness improving with activity.","Lambert-Eaton Syndrome",0

@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Neck_Swelling_Size (cm²),Tenderness (score),Fluctuation (score),Pulsatility (score),WBC (/mm³),Neutrophils (%),Lymphocytes (%),ESR (mm/hr),Presenting Complaint,Clinical_Diagnosis,Label
+40,37.0,120,80,76,14,9,0,0,0,10200,70,30,20,"Swollen neck with hyperthyroid symptoms (sweaty palms, insomnia, irritability).","Silent Thyroiditis",1
+40,37.0,120,80,92,14,15,1,0,1,9000,60,35,28,"Large, tender, pulsatile thyroid swelling with severe hyperthyroidism symptoms.","Toxic Multinodular Goiter",0

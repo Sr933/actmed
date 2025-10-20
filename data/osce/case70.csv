@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),WBC (/μL),Urine WBC (/HPF),Urine RBC (/HPF),Urine Nitrites (μmol/L),Scrotal Blood Flow (% of contralateral side),Pain Relief on Elevation (mm),Cremasteric Reflex Latency (ms),Presenting Complaint,Clinical_Diagnosis,Label
+16,37.4,120,88,117,14,99,8000,2,1,0,20,0,0,"Sudden-onset abdominal pain while playing football, with normal abdominal exam but right testicular findings.","Testicular torsion",1
+16,37.8,122,85,102,16,99,11000,25,5,2,100,5,30,"Sudden-onset abdominal pain while playing football, with normal abdominal exam but right testicular findings.","Testicular torsion",0

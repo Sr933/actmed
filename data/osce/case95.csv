@@ -1,0 +1,3 @@
+Age (years),Heart Rate (bpm),Respiratory Rate (/min),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),FEV1 (% predicted),FVC (% predicted),FEV1_FVC_Ratio (%),Smoking_History (years),Presenting Complaint,Clinical_Diagnosis,Label
+79,89,27,120,90,48,85,56,25,"Shortness of breath with moderate exertion and a slightly productive cough.","Chronic obstructive pulmonary disease",1
+79,89,22,125,90,80,90,75,0,"Shortness of breath with moderate exertion and a slightly productive cough.","Chronic obstructive pulmonary disease",0

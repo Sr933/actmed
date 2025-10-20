@@ -1,0 +1,3 @@
+Gestational Age (weeks),Birth Weight (g),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (% on room air),pH,PaCO2 (mmHg),PaO2 (mmHg),HCO3- (mEq/L),Base Excess (mEq/L),Chest X-Ray Lung Opacity Index (0–100),Bronchogram Score (0–10),Presenting Complaint,Clinical_Diagnosis,Label
+32,1700,100,58,104,70,88,7.30,50,60,24,-5,85,8,"Respiratory distress with tachypnea, retractions, nasal flaring, and cyanosis in a newborn.","Neonatal Respiratory Distress Syndrome (NRDS)",1
+32,1750,100,60,100,68,90,7.36,44,70,25,-2,45,3,"Respiratory distress with tachypnea, retractions, nasal flaring, and cyanosis in a newborn.","Transient Tachypnea of the Newborn (TTN)",0

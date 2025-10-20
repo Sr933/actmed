@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Pain Duration (months),Pain Severity (0–10),Night Pain Episodes (per week),ESR (mm/hr),CRP (mg/L),Lesion Size (cm),Soap Bubble Appearance (0–1),Presenting Complaint,Clinical_Diagnosis,Label
+24,36.8,125/80,72,14,2,8,4,25,3,5,1,"Male with 2 months of severe left knee pain and swelling unrelieved by NSAIDs, awakening him at night.","Osteoclastoma (Giant Cell Tumor)",1
+24,36.8,120/78,70,14,0,0,0,10,2,0,0,"Male without knee pain or swelling, no nocturnal symptoms.","Osteoclastoma (Giant Cell Tumor)",0

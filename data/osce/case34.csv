@@ -1,0 +1,3 @@
+Age (months),Current Temperature (°C),Peak Temperature (°C),Heart Rate (bpm),Respiratory Rate (/min),Seizure Duration (seconds),Rash Duration (days),Time Since Fever (days),Presenting Complaint,Clinical_Diagnosis,Label
+9,37.2,40.5,120,30,60,2,5,"Generalized nonpruritic rash starting on trunk and spreading to extremities after recent high fever and seizure.","Roseola infantum",1
+9,37.0,38.0,120,30,0,2,5,"Generalized nonpruritic rash starting on trunk and spreading to extremities, no seizure, mild prior fever.","Roseola infantum",0

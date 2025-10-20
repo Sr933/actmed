@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Chest_Pain_Severity (0–10),Shortness_of_Breath_Severity (0–10),Emotional_Stress_Level (0–10),Troponin (ng/L),BNP (pg/mL),LV_Diameter (mm),LA_Diameter (mm),Presenting Complaint,Clinical_Diagnosis,Label
+43,36.8,105,67,96,23,9,6,10,20,300,55,40,"Severe chest pain with shortness of breath following intense emotional stress.","Takotsubo cardiomyopathy",1
+43,36.8,105,67,96,23,5,3,4,15,150,50,35,"Severe chest pain with shortness of breath following intense emotional stress.","Takotsubo cardiomyopathy",0

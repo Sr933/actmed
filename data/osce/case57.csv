@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),White Blood Cell Count (/mm3),Creatine Kinase (U/L),CSF Opening Pressure (cm H2O),CSF WBC (cells/mm3),CSF Protein (mg/dL),CSF Glucose (mg/dL),Serum Glucose (mg/dL),Presenting Complaint,Clinical_Diagnosis,Label
+22,39.6,126,66,116,14700,5600,22,4,48,64,96,"Fever and altered mentation with profuse sweating, rigidity, and confusion.","Neuroleptic malignant syndrome",1
+22,38.9,124,70,102,12000,180,26,150,120,40,90,"Fever and altered mentation with profuse sweating, rigidity, and confusion.","Neuroleptic malignant syndrome",0

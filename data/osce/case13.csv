@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),White Blood Cell Count (×10³/μL),Neutrophil Percentage (%),ESR (mm/hr),Stool WBC Count (/HPF),Clostridium difficile Toxin Level (pg/mL),Presenting Complaint,Clinical_Diagnosis,Label
+58,37.0,122/98,67,15,13.4,80,33,25,420,"58-year-old female currently hospitalized for a respiratory infection, now presenting with persistent loose stools.","C. difficile colitis",1
+58,37.1,120/95,70,15,12.0,70,25,5,10,"58-year-old female currently hospitalized for a respiratory infection, now presenting with persistent loose stools.","C. difficile colitis",0

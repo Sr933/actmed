@@ -9,7 +9,7 @@ import re
 parent_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 lib_folder = os.path.join(parent_folder, 'lib')
 sys.path.append(lib_folder)
-results_folder = os.path.join(parent_folder, 'results_osce2')
+results_folder = os.path.join(parent_folder, 'results', 'osce')
 os.makedirs(results_folder, exist_ok=True)
 
 # Import OSCE loader and BED model
@@ -21,7 +21,7 @@ def run_osce_experiments(model_name, seed):
     Run OSCE experiments: for each case, predict diagnosis probability.
     """
     # Load and preprocess cases
-    data_path = os.path.join(parent_folder, 'data', 'agentclinic2')
+    data_path = os.path.join(parent_folder, 'data', 'osce')
     loader = OSCECaseLoader(data_path)
     loader.preprocess_data()
     num_cases = len(loader.data)

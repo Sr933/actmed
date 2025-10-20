@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Cognitive Orientation Score (/3),Chorea Frequency (episodes/min),Ankle Reflex Delay (seconds),Caudate Volume (cm³),Frontal Horn Width (mm),Presenting Complaint,Clinical_Diagnosis,Label
+42,36.8,130,85,72,14,2,6,4,2.0,14,"Abnormal behavior, difficulty swallowing, and involuntary movements.","Huntington disease",1
+42,36.7,128,82,70,14,2,3,2,4.5,9,"Abnormal behavior, difficulty swallowing, and involuntary movements.","Frontotemporal dementia with motor features",0

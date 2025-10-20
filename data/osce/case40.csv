@@ -1,0 +1,3 @@
+Age (years),Weight Loss (kg),Bilirubin Total (mg/dL),Direct Bilirubin (mg/dL),Alkaline Phosphatase (U/L),AST (U/L),ALT (U/L),Alcohol History (years),Alcohol Intake (beers/day),Smoking History (pack-years),RUQ Mass (cm, estimated),Presenting Complaint,Clinical_Diagnosis,Label
+72,6.3,5.6,4.8,192,32,34,40,1.5,50,5,"Decreased appetite, pale stool, and right upper quadrant mass.","Pancreatic adenocarcinoma",1
+72,0,0.8,0.3,80,25,20,0,0,0,0,"Decreased appetite, pale stool, and right upper quadrant mass.","Pancreatic adenocarcinoma",0

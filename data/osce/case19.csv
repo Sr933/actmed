@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),WBC (/mm3),Neutrophil %,ESR (mm/hr),Stool Mucus (1=yes),Presenting Complaint,Clinical_Diagnosis,Label
+31,37.0,122/78,67,15,11000,70,10,1,"31-year-old female with chronic diarrhea and lower abdominal discomfort for 4 months.","Irritable Bowel Syndrome",1
+31,37.1,121/76,68,15,13000,78,40,1,"31-year-old female with chronic diarrhea and lower abdominal discomfort for 4 months.","Irritable Bowel Syndrome",0

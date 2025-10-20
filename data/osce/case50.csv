@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),Duration of Vertigo (hours),Average Hearing Loss (dB),Nystagmus Amplitude (°),Endolymphatic Hydrops (mm on MRI, estimated),Presenting Complaint,Clinical_Diagnosis,Label
+27,37.1,122,81,82,15,99,8,25,8,0,"Dizziness, nausea, and imbalance with sustained spinning sensation and bilateral decreased hearing.","Labyrinthitis",1
+27,37.0,123,80,78,15,99,3,40,5,2,"Dizziness, nausea, and imbalance with sustained spinning sensation and bilateral decreased hearing.","Labyrinthitis",0

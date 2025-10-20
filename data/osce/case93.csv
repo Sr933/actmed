@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Lumbar_Canal_Diameter (mm),Lower_Limb_Weakness (0-5 scale),Stocking_Glove_Sensory_Loss (0-3),Presenting Complaint,Clinical_Diagnosis,Label
+65,37.5,157,108,90,17,7,3,2,"Gradually worsening back pain with numbness and weakness in legs, pain relieved by leaning forward.","Spinal stenosis",1
+65,37.5,157,108,90,17,15,0,0,"Gradually worsening back pain with numbness and weakness in legs, pain relieved by leaning forward.","Spinal stenosis",0

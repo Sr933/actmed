@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Hemoglobin (g/dL),Mean_Corpuscular_Volume (μm³),Reticulocyte_Count (%),Sodium (mEq/L),Potassium (mEq/L),Calcium (mg/dL),Stool_Occult_Blood (mg Hb/g stool),Arm_Vein_Crusts (count),Proximal_Muscle_Weakness (0-3),Murmur_Grade (/6),Presenting Complaint,Clinical_Diagnosis,Label
+26,36.5,90,65,120,7.5,89,13.3,139,3.9,8.5,0,15,2,2,"Fatigue, lower abdominal pain, cancer concern, and physical signs of self-harm.","Factitious Disorder",1
+26,36.5,90,65,120,12.5,89,1.0,139,3.9,8.5,0,0,0,0,"Fatigue and lower abdominal pain without evidence of self-harm or exaggeration.","Factitious Disorder",0

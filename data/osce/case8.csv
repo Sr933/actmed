@@ -1,0 +1,3 @@
+Age_years,Postpartum_Day,Temperature_C,Blood_Pressure_systolic,Blood_Pressure_diastolic,Heart_Rate_bpm,Respiratory_Rate_min,Oxygen_Saturation_pct,Uterine_Tenderness_Score,Bowel_Sounds_Score,Presentation,Clinical_Diagnosis,Label
+24,4,38.9,118,78,111,17,98,3,1,"Postpartum fever, uterine tenderness, decreased bowel sounds","Endometritis",1
+24,20,36.8,110,75,80,14,99,0,3,"Postpartum fever, uterine tenderness, decreased bowel sounds","Endometritis",0

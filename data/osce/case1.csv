@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Acetylcholine Receptor Antibodies (nmol/L),Repetitive Nerve Stimulation Decrement (%),Ptosis (1=present),Proximal Muscle Weakness (1=present),Presenting Complaint,Clinical_Diagnosis,Label
+35,36.6,125/80,72,16,6.5,28,1,1,"Double vision, difficulty climbing stairs, upper limb weakness","Myasthenia gravis",1
+35,36.7,122/78,70,16,0.2,4,0,0,"Double vision, difficulty climbing stairs, upper limb weakness","Myasthenia gravis",0

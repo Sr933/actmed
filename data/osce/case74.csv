@@ -1,0 +1,3 @@
+Age (years),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Episode Duration (seconds),Post-Episode Confusion Duration (seconds),Observed Jerky Movements (count),Skin Pallor Score (0–5),Diaphoresis Score (0–5),ECG PR Interval (ms),ECG QRS Duration (ms),Stress Level (0–10),Presenting Complaint,Clinical_Diagnosis,Label
+24,37.0,120,72,68,16,30,0,6,5,5,160,110,8,"Episode of loss of consciousness.","Vasovagal syncope",1
+24,37.1,122,74,72,16,90,60,12,1,1,160,110,8,"Episode of loss of consciousness.","Epileptic seizure",0

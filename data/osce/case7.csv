@@ -1,0 +1,3 @@
+Age_years,Mass_Size_cm,Temperature_C,Blood_Pressure_systolic,Blood_Pressure_diastolic,Heart_Rate_bpm,Respiratory_Rate_min,Presentation,Clinical_Diagnosis,Label
+48,6.0,37.0,125,80,72,14,"Felt something weird in her breast upon palpation recently, no pain","Phyllodes tumor",1
+22,0.0,36.9,120,78,70,14,"Felt something weird in her breast upon palpation recently, no pain","Phyllodes tumor",0

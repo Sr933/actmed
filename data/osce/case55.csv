@@ -1,0 +1,3 @@
+Age (months),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Hemoglobin (g/dL),Hematocrit (%),Leukocyte Count (/mm3),Platelet Count (/mm3),Activated Clotting Time (s),Prothrombin Time (s),ESR (mm/hr),CRP (mg/L),Presenting Complaint,Clinical_Diagnosis,Label
+18,37.1,90,52,146,26,12.2,36,7300,200000,52,14,15,10,"Swelling of the right knee with familial history of similar problems.","Hemophilia A",1
+18,37.2,92,54,140,28,11.8,35,12000,400000,32,13,55,40,"Swelling of the right knee with familial history of similar problems.","Hemophilia A",0

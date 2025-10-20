@@ -1,0 +1,3 @@
+Age (months),Temperature (°C),Blood Pressure Systolic (mmHg),Blood Pressure Diastolic (mmHg),Heart Rate (bpm),Respiratory Rate (/min),Oxygen Saturation (%),Hemoglobin (g/dL),Hematocrit (%),MCV (µm³),Platelet Count (/mm³),Reticulocyte Count (%),Lactate Dehydrogenase (U/L),Apneic Episodes (per night, estimated),Presenting Complaint,Clinical_Diagnosis,Label
+1,36.7,91,55,207,50,97,8.2,28,100,300000,0.8,120,6,"Episodes of apnea during sleep with pallor and anemia.","Impaired erythropoietin production",1
+1,36.7,91,55,200,48,97,7.0,25,70,400000,5.0,130,6,"Episodes of apnea during sleep with pallor and anemia.","Impaired erythropoietin production",0
