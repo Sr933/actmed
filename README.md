@@ -1,11 +1,11 @@
-# ACT-Med: Timely Clinical Diagnosis (NeurIPS 2025)
+# ACTMED: Timely Clinical Diagnosis through Active Test Selection (NeurIPS 2025)
 
 <p align="center">
 	<img src="./Overview.png" alt="ACT-Med overview diagram" width="850" />
 </p>
 
 <p align="center">
-	<b>Authors:</b> Silas RUhrberg Estevez · Nicolas Astorga · Mihaela van der Schaar
+	<b>Authors:</b> Silas Ruhrberg Estevez · Nicolás Astorga · Mihaela van der Schaar
 </p>
 
 <p align="center">
@@ -18,15 +18,10 @@
 
 ---
 
-ACT-Med is a framework for timely clinical diagnosis, combining structured datasets, simulated OSCE-style assessments, and principled uncertainty-aware evaluation. This repository contains the code, environment, data layout, and scripts to reproduce the experiments and figures in the NeurIPS 2025 paper.
+There is growing interest in using machine learning (ML) to support clinical diagnosis, but most approaches rely on static, fully observed datasets and fail to reflect the sequential, resource-aware reasoning clinicians use in practice. Diagnosis remains complex and error prone, especially in high-pressure or resource-limited settings, underscoring the need for frameworks that help clinicians make timely and cost-effective decisions. We propose \name \ (Adaptive Clinical Test selection via Model-based Experimental Design), a diagnostic framework that integrates Bayesian Experimental Design (BED) with large language models (LLMs) to better emulate real-world diagnostic reasoning. At each step, \name \ selects the test expected to yield the greatest reduction in diagnostic uncertainty for a given patient. LLMs act as flexible simulators, generating plausible patient state distributions and supporting belief updates without requiring structured, task-specific training data. Clinicians can remain in the loop; reviewing test suggestions, interpreting intermediate outputs, and applying clinical judgment throughout. We evaluate \name \ on real-world datasets and show it can optimize test selection to improve diagnostic accuracy, interpretability, and resource use. This represents a step toward transparent, adaptive, and clinician-aligned diagnostic systems that generalize across settings with reduced reliance on domain-specific data.
 
-## Highlights
 
-- Timely clinical diagnosis benchmark across multiple conditions (e.g., diabetes, hepatitis, kidney)
-- OSCE-style evaluations for realistic, stepwise clinical reasoning
-- Support for multiple model backends and reproducible seeds
-- Ready-to-use Conda environment via `actmed_environment.yml`
-- Clear outputs under `results/` for main, sampling, and entropy-based analyses
+
 
 ## Getting Started
 
@@ -39,70 +34,53 @@ conda env create -f actmed_environment.yml
 conda activate actmed
 ```
 
-If you run into conflicts, try updating Conda/Mamba and re-creating the env. The environment is tailored for Linux with CUDA support; CPU-only is possible by removing GPU-specific packages.
 
 ### 2) Data layout
 
-This repo expects data in the `data/` folder. A sample CSV is already provided for diabetes.
+This repo expects data in the `data/` folder. The datasets from the paper ar already provided, but more can be added.
 
 ```
 actmed/
 	data/
 		diabetes/
 			diabetes.csv
-		hepatitis/
-			... (place files here)
-		kidney/
-			... (place files here)
-		osce/
-			... (OSCE evaluation materials)
 ```
 
 - Place additional datasets into their respective subfolders.
-- Ensure file names and formats match what the loaders in `lib/datasets.py` expect.
+- Ensure file names and formats match what the loaders in `lib/datasets.py` and the BED models `lib/bed.py` expect. For new datasets, custom classes will have to be generated to instruct the model how to load the data and introduce domain specific prompts.
 
 ## Experiments
 
-We provide shell scripts in `src/` to launch experiments. These scripts spin up parallel runs using GNU Screen and currently use absolute paths that you should adapt to your machine.
+We provide shell scripts in `src/` to launch experiments.
 
 - `src/runExperiment.sh` — main experiments (condition classification)
 - `src/runOSCEs.sh` — OSCE-style assessments
-- `src/runSamplig.sh` — sampling analyses (typo in filename is intentional to match the existing file)
+- `src/runEntropy.sh` — for comparison against KL-divergence
+- `src/runSampling.sh` — sampling analyses 
 
-Before running, open the scripts and update any absolute paths (e.g., references to `/home/sr933/...`). Then execute, for example:
+Execute, for example:
 
 ```bash
 bash src/runExperiment.sh
 ```
-
-The scripts will launch detached screen sessions per (task, model, seed) and wait until all runs complete.
+The datasets, models and seeds are chosen in the bash file.
 
 ### Environment variables (OpenAI)
 
-This repo uses the standard OpenAI client and enforces the `gpt-4o` model. Set the following in your shell (bash):
+This repo uses the standard OpenAI client and enforces.  To use GPT-4o or GPT-3o-mini Set the following in your shell (bash):
 
 ```bash
 # Required
-export OPENAI_API_KEY="sk-..."
+export OPENAI_API_KEY="..."
 
-# Optional: only if you go through a proxy/self-hosted gateway
-export OPENAI_BASE_URL="https://api.openai.com/v1"  # default shown
+
+export OPENAI_BASE_URL="https://api.openai.com/v1"  
 ```
-# Path to conda.sh
-CONDA_PATH="/home/sr933/miniconda/etc/profile.d/conda.sh"
+
+It is also possible to use other models, simply implement them using the other_chat function under `lib/model.py`.
 
 
-Notes
-- `lib/model.py` reads `OPENAI_API_KEY`. As a convenience, it will also accept `GPT_4O_KEY` if you already have that set.
-- Only `gpt-4o` is supported. Supplying other model names will raise an error.
-- You can put these in a `.env` file for local development.
 
-Quick start with a template:
-
-```bash
-cp .env.example .env
-# then edit .env with your key
-```
 
 ## Results
 
@@ -110,7 +88,7 @@ All outputs are written to `results/`:
 
 - `results/main/` — primary experiment outputs
 - `results/sampling/` — sampling-based analyses
-- `results/entropy/` — entropy/uncertainty analyses
+- `results/entropy/` — entropy based analyses
 
 If you want to keep figures or intermediate artifacts, check `analysis/` (e.g., `analysis/Figure1.py`) for figure generation utilities.
 
@@ -124,7 +102,7 @@ If you want to keep figures or intermediate artifacts, check `analysis/` (e.g., 
 
 ## Paper
 
-- Title: Timely Clinical Diagnosis (NeurIPS 2025)
+- Title: Timely Clinical Diagnosis through Active Test Selection (NeurIPS 2025)
 - Link: coming soon
 
 We will update this section with the camera-ready link (arXiv and/or OpenReview) once available.
@@ -146,13 +124,10 @@ If you find this work useful, please cite it. A final BibTeX entry will be provi
 
 ## License
 
-License will be added upon publication. Until then, all rights reserved.
+MIT Opensource License
 
-## Acknowledgements
 
-We thank collaborators and the broader clinical ML community for feedback and discussions. Please open an issue if you encounter any problems or have suggestions.
 
 ---
 
-Questions or requests? Feel free to open an issue or discussion thread in this repository.
 
