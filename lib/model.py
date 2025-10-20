@@ -3,18 +3,38 @@ import numpy as np
 import time
 import os
 import random
+
+# Azure OpenAI API configuration (version may be updated by Azure)
 OPENAI_API_TYPE = "azure"
 OPENAI_API_VERSION = "2024-02-15-preview"
 
 
-# Set the OpenAI API configurations for different models as environment variables
-OPEN_API_BASE_GPT4o_mini    = "https://vdslabazuremloai-fc.openai.azure.com/"
-OPEN_API_KEY_GPT4o_mini     = "N1OWS0nAknrQ0s47x0JCiXn8YHb3f6pMM5MbZzRpFH6YJ5n5UuocJQQJ99BEAC5T7U2XJ3w3AAABACOGkauV"
-OPEN_API_ENGINE_GPT4o_mini  = "gpt-4o-mini-silas"
 
-OPEN_API_ENGINE_GPT4o= 'gpt-4o-silas'
-OPEN_API_BASE_GPT4o = 'https://vdslabazuremloai-fc.openai.azure.com/'
-OPEN_API_KEY_GPT4o  = 'N1OWS0nAknrQ0s47x0JCiXn8YHb3f6pMM5MbZzRpFH6YJ5n5UuocJQQJ99BEAC5T7U2XJ3w3AAABACOGkauV'
+
+def _get_env(name: str) -> str:
+    """Fetch required environment variables with a clear error if missing."""
+    val = os.getenv(name)
+    if not val:
+        raise RuntimeError(
+            f"Missing required environment variable: {name}.\n"
+            f"Please export it in your shell or add it to a .env file."
+        )
+    return val
+
+
+
+
+# Read Azure OpenAI credentials from environment
+# Note: hyphens are not valid in environment variable names; use underscores.
+# GPT-4o (prefer GPT_4O_*; fall back to AZURE_OPENAI_* if present)
+OPEN_API_BASE_GPT4o = os.getenv("GPT4O_ENDPOINT")
+OPEN_API_KEY_GPT4o = os.getenv("GPT4O_KEY")
+OPEN_API_ENGINE_GPT4o = os.getenv("GPT4O_DEPLOYMENT")
+
+# GPT-4o-mini
+OPEN_API_BASE_GPT4o_mini = os.getenv("GPT4Omini_ENDPOINT")
+OPEN_API_KEY_GPT4o_mini = os.getenv("GPT4Omini_KEY")
+OPEN_API_ENGINE_GPT4o_mini = os.getenv("GPT4Omini_DEPLOYMENT")
 
 MAX_RETRY = 20
 
@@ -43,11 +63,6 @@ def chat_gpt(user_prompt, model_name, temperature=1, top_p=0.95):
         model = OPEN_API_ENGINE_GPT4o_mini
         api_key = OPEN_API_KEY_GPT4o_mini
         api_base = OPEN_API_BASE_GPT4o_mini
-        api_version = OPENAI_API_VERSION
-    elif model_name == 'gpt-4.1-mini':
-        model = OPEN_API_ENGINE_GPT4_1_mini
-        api_key = OPEN_API_KEY_GPT4_1_mini
-        api_base = OPEN_API_BASE_GPT4_1_mini
         api_version = OPENAI_API_VERSION
     elif model_name == 'gpt-4o':
         model = OPEN_API_ENGINE_GPT4o
@@ -94,46 +109,15 @@ def chat_gpt(user_prompt, model_name, temperature=1, top_p=0.95):
     
     return "Error: No valid response received."
 
-def llama_chat(user_prompt, 
-               model_name="TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-               temperature=1, top_p=0.95):
+def other_chat(user_prompt, model_name, temperature=1, top_p=0.95):
     """
-    Send a chat prompt to a locally hosted model via vLLM.
+    Placeholder for other chat function.
     """
-    client = openai.OpenAI(
-    base_url="http://localhost:8000/v1",
-    api_key="EMPTY"  # Not used but required
-    )
-    seed=random.randint(0, 10000)
-    #Add only return a number to the user prompt at the start before passing to the model
-    user_prompt = "Return a number only a number with no reasoning!!! " + user_prompt
-    
-    user_prompt = user_prompt.strip()
-    for _ in range(MAX_RETRY):
-        try:
-            response = client.chat.completions.create(
-                model=model_name,
-                messages=[{"role": "user", "content": user_prompt}],
-                temperature=temperature,
-                top_p=top_p,
-                n=1
-            )
-            content = response.choices[0].message.content
-            if content:
-                return content
-        except Exception as e:
-            print(f"Retrying due to: {e}")
-            time.sleep(random.uniform(0.5, 1.5))
-
-    return "Error: No valid response received."
-
-
-
-
+    pass
 
 if __name__ == "__main__":
     # Example usage
     user_prompt = "Name 3 risk factors for stroke?"
-    model_name = "gpt-4o"
+    model_name = "gpt-4o-mini"
     response = chat_gpt(user_prompt, model_name)
     print(response)

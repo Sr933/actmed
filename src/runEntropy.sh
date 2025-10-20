@@ -1,41 +1,31 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-# Experiment types to run
-EXPERIMENT_TYPES=("diabetes")
-#MODEL_NAMES=("gpt-4.1-mini" "gpt-4o-mini")
+# Sequential entropy experiment runner (no screens), matching runExperiment.sh style
+
+EXPERIMENT_TYPES=("diabetes" "hepatitis" "kidney")
+MODEL_NAMES=("gpt-4o" "gpt-4o-mini")
 SEEDS=(0 42 100 123 456)
 
-MODEL_NAMES=("gpt-4o" "gpt-4o-mini")
+# Resolve path to the Python entrypoint relative to this script
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PY_ENTRY="${SCRIPT_DIR}/run_entropy.py"
 
-# Path to conda.sh
-CONDA_PATH="/home/sr933/miniconda/etc/profile.d/conda.sh"
+if [[ ! -f "$PY_ENTRY" ]]; then
+    echo "Error: Python entrypoint not found at $PY_ENTRY" >&2
+    exit 1
+fi
 
-# Function to run an experiment in a new screen
-run_experiment() {
-    local experiment_type=$1
-    local model_name=$2
-    local seed=$3
-    screen -dmS "${experiment_type}_${model_name}_${seed}" bash -c "source $CONDA_PATH && conda activate actmed && python /home/sr933/BayesianReasoning/src/kl_div_vs_entropy.py $experiment_type $model_name $seed; exec bash"
-}
-
-# Start all experiments in parallel
+start_ts=$(date +%s)
 for experiment_type in "${EXPERIMENT_TYPES[@]}"; do
     for model_name in "${MODEL_NAMES[@]}"; do
         for seed in "${SEEDS[@]}"; do
-            echo "Starting $experiment_type with $model_name and seed $seed..."
-            run_experiment $experiment_type $model_name $seed
+            echo "[RUN] entropy experiment=${experiment_type} model=${model_name} seed=${seed}"
+            python "$PY_ENTRY" "$experiment_type" "$model_name" "$seed"
+            echo "[DONE] entropy experiment=${experiment_type} model=${model_name} seed=${seed}"
         done
     done
 done
 
-# Wait for all screens to finish
-echo "Waiting for all experiments to complete..."
-while screen -ls | grep -q Detached; do
-    sleep 600  # Check every 600 seconds if screens are still running
-done
-
-# Close all screens
-echo "Closing all screens..."
-screen -ls | grep Detached | awk '{print $1}' | xargs -I {} screen -S {} -X quit
-
-echo "All experiments completed and screens closed."
+end_ts=$(date +%s)
+echo "All entropy runs completed in $(( end_ts - start_ts ))s."

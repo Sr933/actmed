@@ -1,7 +1,6 @@
 import numpy as np
-from model import chat_gpt, llama_chat
-from helperfunctions import dataframe_to_markdown, hepatitis_clinical_vignette, diabetes_clinical_vignette, stroke_features_to_clinical_vignette, kidney_clinical_vignette, cirrhosis_clinical_vignette, heart_clinical_vignette
-from timeseries import process_patient_df
+from model import chat_gpt, other_chat
+from helperfunctions import dataframe_to_markdown, hepatitis_clinical_vignette, diabetes_clinical_vignette, kidney_clinical_vignette
 class BEDModel:
     """
     General BEDModel base class providing common functionality.
@@ -31,15 +30,12 @@ class BEDModel:
         if model_name == 'gpt-4o-mini':
             self.model = chat_gpt
             self.model_name = 'gpt-4o-mini'
-        elif model_name == 'gpt-4.1-mini':
-            self.model = chat_gpt
-            self.model_name = 'gpt-4.1-mini'
         elif model_name == 'gpt-4o':
             self.model = chat_gpt
             self.model_name = 'gpt-4o'
-        elif model_name == 'TinyLlama/TinyLlama-1.1B-Chat-v1.0':
-            self.model = llama_chat
-            self.model_name = 'TinyLlama/TinyLlama-1.1B-Chat-v1.0'
+        elif model_name == 'other':
+            self.model = other_chat
+            self.model_name = 'other'
         else:
             raise ValueError("Model not supported")
 

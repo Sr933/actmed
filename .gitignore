@@ -4,3 +4,5 @@
 /temp/
 /plots/
 /.vscode/
+.env
+.env.*

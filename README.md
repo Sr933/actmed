@@ -77,6 +77,33 @@ bash src/runExperiment.sh
 
 The scripts will launch detached screen sessions per (task, model, seed) and wait until all runs complete.
 
+### Environment variables (OpenAI)
+
+This repo uses the standard OpenAI client and enforces the `gpt-4o` model. Set the following in your shell (bash):
+
+```bash
+# Required
+export OPENAI_API_KEY="sk-..."
+
+# Optional: only if you go through a proxy/self-hosted gateway
+export OPENAI_BASE_URL="https://api.openai.com/v1"  # default shown
+```
+# Path to conda.sh
+CONDA_PATH="/home/sr933/miniconda/etc/profile.d/conda.sh"
+
+
+Notes
+- `lib/model.py` reads `OPENAI_API_KEY`. As a convenience, it will also accept `GPT_4O_KEY` if you already have that set.
+- Only `gpt-4o` is supported. Supplying other model names will raise an error.
+- You can put these in a `.env` file for local development.
+
+Quick start with a template:
+
+```bash
+cp .env.example .env
+# then edit .env with your key
+```
+
 ## Results
 
 All outputs are written to `results/`:
