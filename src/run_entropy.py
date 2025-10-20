@@ -7,11 +7,11 @@ import random
 parent_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 lib_folder = os.path.join(parent_folder, 'lib')
 sys.path.append(lib_folder)
-results_folder = os.path.join(parent_folder, 'results_entropy')
+results_folder = os.path.join(parent_folder, 'results', 'entropy')
 os.makedirs(results_folder, exist_ok=True)
 
 from datasets import DiabetesDataset, HepatitisDataset, KidneyDataset
-from bed import DiabetesBEDModel, HepatitisBEDModel,HepatitisEntropyBEDModel, KidneyBEDModel
+from bed import DiabetesEntropyBEDModel, HepatitisEntropyBEDModel, KidneyEntropyBEDModel
 
 def get_experiment_config(model_name, seed):
     """
@@ -20,7 +20,7 @@ def get_experiment_config(model_name, seed):
     return {
         "kidney": {
             "dataset_class": KidneyDataset,
-            "model_class": KidneyBEDModel,
+            "model_class": KidneyEntropyBEDModel,
             "data_file": os.path.join(parent_folder, 'data', 'kidney', 'ckd.csv'),
             "output_file": os.path.join(results_folder, f'kidney_experiment_results_{model_name}_{seed}.csv'),
             "global_best_features": ['bp', 'sc', 'hemo'],
@@ -28,7 +28,7 @@ def get_experiment_config(model_name, seed):
         },
         "diabetes": {
             "dataset_class": DiabetesDataset,
-            "model_class": DiabetesBEDModel,
+            "model_class": DiabetesEntropyBEDModel,
             "data_file": os.path.join(parent_folder, 'data', 'diabetes', 'diabetes.csv'),
             "output_file": os.path.join(results_folder, f'diabetes_experiment_results_{model_name}_{seed}.csv'),
             "global_best_features": ['Glucose', 'BMI', 'Insulin'],
