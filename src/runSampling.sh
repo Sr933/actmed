@@ -5,7 +5,7 @@ set -euo pipefail
 
 # Configure what to run
 EXPERIMENT_TYPES=("diabetes")   # add: "hepatitis" "kidney"
-MODEL_NAMES=("gpt-4o")          # model.py enforces gpt-4o only
+MODEL_NAMES=("gpt-4o" "gpt-4o-mini")          
 SEEDS=(0 42 100 123 456)
 
 # Resolve path to the Python entrypoint relative to this script

@@ -112,13 +112,13 @@ We will update this section with the camera-ready link (arXiv and/or OpenReview)
 If you find this work useful, please cite it. A final BibTeX entry will be provided upon publication. For now, you can use the placeholder below and update fields later:
 
 ```bibtex
-@inproceedings{ruhrberg2025timely,
-	title     = {Timely Clinical Diagnosis},
-	author    = {Silas RUhrberg Estevez and Nicolas Astorga and Mihaela van der Schaar},
-	booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
-	year      = {2025},
-	note      = {To appear},
-	url       = {https://arxiv.org/abs/TODO}
+@inproceedings{
+ruhrberg2025timely,
+title={Timely Clinical Diagnosis through Active Test Selection},
+author={Silas {Ruhrberg Estevez} and Nicolás Astorga and Mihaela van der Schaar},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025},
+url={https://openreview.net/forum?id=lO7RGax6u9}
 }
 ```
 

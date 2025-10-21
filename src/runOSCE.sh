@@ -4,7 +4,7 @@ set -euo pipefail
 # Sequential OSCE runner (no screens), matching runExperiment.sh style
 
 # Configure model names and seeds
-MODEL_NAMES=("gpt-4o")
+MODEL_NAMES=("gpt-4o" "gpt-4o-mini")
 SEEDS=(0 42 100 123 456)
 
 # Resolve path to the Python entrypoint relative to this script

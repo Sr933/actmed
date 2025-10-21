@@ -9,7 +9,7 @@ import re
 parent_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 lib_folder = os.path.join(parent_folder, 'lib')
 sys.path.append(lib_folder)
-results_folder = os.path.join(parent_folder, 'results', 'osce')
+results_folder = os.path.join(parent_folder, 'results2', 'osce')
 os.makedirs(results_folder, exist_ok=True)
 
 # Import OSCE loader and BED model

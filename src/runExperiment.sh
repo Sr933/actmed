@@ -4,7 +4,7 @@ set -euo pipefail
 # Sequential experiment runner (no screens)
 # Adjust these arrays as needed
 EXPERIMENT_TYPES=("diabetes" "hepatitis" "kidney")
-MODEL_NAMES=("gpt-4o" "gpt-4o-1" "gpt-4o-2")
+MODEL_NAMES=("gpt-4o" "gpt-4o-mini")
 SEEDS=(0 42 100 123 456)
 
 # Resolve path to the Python entrypoint relative to this script

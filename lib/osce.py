@@ -193,7 +193,7 @@ class OSCEBEDModel(BEDModel):
         """
         self.risk_prompt_template = (
             "You are an expert clinician. Given the following case details, "
-            f"estimate a realistic and conservatice probability of the suspected diagnosis of {self.diagnosis} as a single number between 0 and 1. "
+            f"estimate a realistic and conservative probability of the suspected diagnosis of {self.diagnosis} as a single number between 0 and 1. "
             "Return only the number that can be converted to a Python float, without any additional commentary."
             
         )
@@ -233,7 +233,7 @@ class OSCEBEDModel(BEDModel):
         known_data = self.format_known_data(known_features)
         unknown_str = ", ".join(unknown_features)
         self.bayesian_selection_prompt_template = (
-            "You are a clinical assistant. Given these case details: {known_data}, "
+            f"You are a clinical assistant. Given these case details: {known_data}, "
             f"which feature from the list [{unknown_str}] would provide the most information next? "
             "Return only the feature name without commentary."
         )
