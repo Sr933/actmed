@@ -1,15 +1,19 @@
 # ACTMED: Timely Clinical Diagnosis through Active Test Selection (NeurIPS 2025)
 
 <p align="center">
-	<img src="./Overview.png" alt="ACT-Med overview diagram" width="850" />
+	<a href="./Overview.png">
+		<img src="./Overview.png" alt="ACTMED overview diagram" />
+	</a>
+	<br/>
+	<sub>Click image to view full-resolution.</sub>
 </p>
 
 <p align="center">
-	<b>Authors:</b> Silas Ruhrberg Estevez · Nicolás Astorga · Mihaela van der Schaar
+	<b>Authors:</b> Silas Ruhrberg Estévez · Nicolás Astorga · Mihaela van der Schaar
 </p>
 
 <p align="center">
-	<a href="#paper">Paper (coming soon)</a> •
+	<a href="#paper">Preprint</a> •
 	<a href="#citation">BibTeX</a> •
 	<a href="#getting-started">Getting Started</a> •
 	<a href="#experiments">Experiments</a> •
@@ -65,20 +69,41 @@ bash src/runExperiment.sh
 ```
 The datasets, models and seeds are chosen in the bash file.
 
-### Environment variables (OpenAI)
+### Environment variables (GPT‑4o and GPT‑4o‑mini)
 
-This repo uses the standard OpenAI client and enforces.  To use GPT-4o or GPT-3o-mini Set the following in your shell (bash):
+Set the following environment variables in your shell (bash). These are required for `lib/model.py` as currently implemented:
 
 ```bash
-# Required
-export OPENAI_API_KEY="..."
+export GPT4O_KEY=""
+export GPT4O_ENDPOINT=""
+export GPT4O_DEPLOYMENT=""
 
-
-export OPENAI_BASE_URL="https://api.openai.com/v1"  
+export GPT4Omini_KEY=""
+export GPT4Omini_ENDPOINT=""
+export GPT4Omini_DEPLOYMENT=""
 ```
 
-It is also possible to use other models, simply implement them using the other_chat function under `lib/model.py`.
+Notes:
+- Names are case-sensitive. Use exactly the keys shown above.
+- These correspond to your API key, endpoint/base URL, and deployment/model name for GPT‑4o and GPT‑4o‑mini respectively.
 
+### Using a local LLM (optional)
+
+You can plug in any local or third‑party LLM by implementing `other_chat` in `lib/model.py`. That function receives `(user_prompt, model_name, temperature, top_p)` and should return a plain string response. Then select `model_name='other'` wherever models are chosen (e.g., via scripts or constructors).
+
+Minimal contract:
+- Input: `user_prompt` (string), `model_name` (string), `temperature` (float), `top_p` (float)
+- Output: a single string with the model’s reply
+- Error behavior: return an informative string or raise, and consider simple retries if calling a flaky local server
+
+See references in `lib/bed.py` where `other` is supported alongside `gpt-4o` and `gpt-4o-mini`.
+
+### Adding new datasets
+
+- Place your files under `data/<your_dataset>/...`.
+- Create a loader class by subclassing `Dataset` in `lib/datasets.py` (override `preprocess_data`, `get_item`, and `return_feature_names`).
+- Create a corresponding BED model by subclassing `BEDModel` in `lib/bed.py` (set domain‑specific prompts by overriding `predict_risk`, `sample_random_variable`, `select_feature_implicit`, and optionally `get_best_global_features`, and `format_known_data`).
+- Domain‑specific vignette/formatting helpers live in `lib/helperfunctions.py` (e.g., `hepatitis_clinical_vignette`, `diabetes_clinical_vignette`, `kidney_clinical_vignette`).
 
 
 
@@ -103,7 +128,7 @@ If you want to keep figures or intermediate artifacts, check `analysis/` (e.g., 
 ## Paper
 
 - Title: Timely Clinical Diagnosis through Active Test Selection (NeurIPS 2025)
-- Link: coming soon
+- Preprint: https://arxiv.org/abs/2510.18988
 
 We will update this section with the camera-ready link (arXiv and/or OpenReview) once available.
 
